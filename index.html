@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Permissões do navegador</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Permissões do navegador</h1>
+      <button id="getLocation">Obter Localização</button>
+      <button id="startCamera">Iniciar Câmera</button>
+      <button id="playButton">Tocar Música</button>
+      <div id="output"></div>
+      <video class="hidden" id="video" autoplay></video>
+      <audio
+        class="hidden"
+        id="audio"
+        src="assets/music.mp3"
+        preload="auto"
+        controls
+      ></audio>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
