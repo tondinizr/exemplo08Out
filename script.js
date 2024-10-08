@@ -38,7 +38,7 @@ function showPosition(position) {
     .then(resposta => {
       //console.log(resposta)
       //console.log(resposta.json())
-      return resposta.json()
+      return resposta.json();
     })
     .then(dado => {
       //console.log(dado)
